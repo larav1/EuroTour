@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospedagem - EuroTour</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Estilos gerais do corpo */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #c79494;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Estilo do conteúdo principal */
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 36px;
+      text-align: center;
+    }
+    .main-content {
+        min-height: 100%;
+        padding-bottom: 50px; /* Altura do rodapé */
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      margin: 15px;
+      width: 250px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(177, 183, 187, 0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .card h3 {
+      color: #333;
+      font-size: 22px;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #555;
+    }
+    p {
+        font-size: 18px; /* Aumenta o tamanho da fonte do parágrafo */
+        line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+        
+    }
+
+    footer {
+      background-color: #c7949491; /* Cor de fundo para o footer */
+      text-align: center;
+      padding: 4px;
+      font-size: 16px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve no topo */
+      display: block;
+      position: relative;
+    }
+
+    footer a {
+      text-decoration: none; /* Remove o sublinhado */
+      color: #0077b5; /* Cor azul para links */
+    }
+
+    footer a:hover {
+      text-decoration: underline; /* Sublinhado ao passar o mouse */
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EuroTour - Hospedagem</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Início</a></li>
+        <li><a href="./passagem.html">Passagens</a></li>
+        <li><a href="./hospedagem.html">Hospedagem</a></li>
+        <li><a href="./ponto-turistico.html">Pontos Turísticos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Encontre os melhores hotéis para se hospedar</h1>
+    <div class="content">
+      <!-- Card de Hotel -->
+      <div class="card">
+        <img src="img/hotel1.jpg" alt="Hotel Hungria">
+        <h3>Four Seasons Hotel Gresham Palace Budapest</h3>
+        <h4>País: Hungria</h4>
+        <p>"O hotel tem 198 quartos e os hóspedes podem jantar na casa de ópera Hungarian State Opera House ao som de uma orquestra. A diária varia de 295 a 2500 euros e você aproveita piscina infinita, academia, restaurante e bar."<p>
+      </div>
+
+      <div class="card">
+        <img src="img/hotel2.jpg" alt="Hotel Turquia">
+        <h3>Four Seasons Hotel Istanbul at Sultanahmet</h3>
+        <h4>País: Turquia</h4>
+        <p>"O prédio tem 65 quartos com vista para o mar Marmara. As suítes têm decoração com temas turcos e banheiro revestido em mármore. Este hotel é indicado para viajantes que gostam de arquitetura, museus e monumentos."</p>
+      </div>
+
+     
+      <div class="card">
+        <img src="img/hotel3.jpg" alt="Hotel França">
+        <h3>Four Seasons Hotel George V</h3>
+        <h4>País: França</h4>
+        <p>"Próximo a avenida Champs-Élysées, oferece o que tem de melhor em luxo em um prédio histórico construído em 1928.
+        Paredes de mármore branco e lustres de cristal dão o tom do hotel cinco estrelas, sem contar com a bela vista de Paris. A diária mais barata custa R$ 3,5 mil podendo chegar a R$ 60 mil na suíte presidencial."</p>
+      </div>
+
+      <div class="card">
+        <img src="img/hotel4.jpg" alt="Hotel Itália">
+        <h3>Belmond Grand Hotel Timeo</h3>
+        <h4>País: Itália</h4>
+        <p>"Com localização privilegiada da cidade de Taormina, na Sicília, o hóspede ficará de frente para o Teatro Grego. Ele poderá desfrutar de praia particular, passeios de barco e piscina panorâmica. A hospedagem custa de 406 a 2800 euros e dá direito a usar sauna, banho turco, academia e massagens, além da praia privativa."</p>
+      </div>
+
+      <div class="card">
+        <img src="img/hotel5.jpg" alt="Hotel Escócia">
+        <h3>Gleneagles Hotel</h3>
+        <h4>País: Escócia</h4>
+        <p>"O hotel foi fundado em 1924 em uma área de 340 hectares com 3 campos de golfe profissional, um spa ESPA e uma escola de falcoaria, além de passeios em 4×4 ou a cavalo, treinamento de cães e tiro ao alvo. Para ficar hospedado neste hotel o preço varia de 315 euros (R$ 983) a 2400 euros (R$ 7,48 mil)."</p>
+      </div>
+
+      <div class="info-hoteis">
+        <h2>Informações sobre os Hotéis</h2>
+        <p>A EuroTour oferece uma seleção de hotéis cuidadosamente escolhidos para garantir o máximo conforto e conveniência durante sua estadia na Europa. De hotéis de luxo a opções mais acessíveis, nossos parceiros oferecem acomodações que atendem a diferentes orçamentos e preferências. Você pode escolher entre hotéis no centro das principais cidades europeias ou em locais mais tranquilos, com fácil acesso a pontos turísticos, transporte público e restaurantes locais. Além disso, oferecemos pacotes exclusivos com descontos especiais para quem reserva hospedagem junto com passagens aéreas. Venha aproveitar a experiência de viajar com conforto e qualidade!</p>
+      </div>
+    
+  </main>
+
+  <footer>
+    <p>Autora: Lara Vitória</p>
+    <p>
+      <a href="https://www.linkedin.com/in/laravitoria123/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin" style="color: #0077b5; font-size: 28px; margin-right: 8px;"></i>
+      </a>
+    </p>
+</footer>
+
+</body>
+</html>
